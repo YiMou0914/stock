@@ -1,0 +1,40 @@
+
+.text {
+	margin: 20rpx 20rpx;
+	/* 上下间距 左右间距 */
+	padding: 10rpx 20rpx;
+	height: 40rpx;
+	line-height: 70rpx;
+	text-align: left;
+	/* color: #8F8F94; */
+	font-size: 31rpx;
+	width: 300rpx;
+	height: 60rpx;
+	font-size: 31rpx;
+	line-height: 40rpx;
+}
+.button-hover1 {
+	margin-top: 300rpx;
+	width: 240rpx;
+	height: 80rpx;
+	margin-left: 80rpx;
+	background-color: #cce6ff;
+}
+.button-hover2 {
+	width: 100%;
+	height: 100rpx;
+	margin-left: 0rpx;
+	margin-top: 300rpx;
+	background-color: #cce6ff;
+}
+.font1 {
+	font-size: 42rpx;
+	margin-top: 15rpx;
+	color: #000000;
+}
+.font2 {
+	font-size: 35rpx;
+	margin-top: 10rpx;
+	color: #000000;
+}
+

@@ -1,0 +1,10 @@
+
+.list-content{
+	background: #fff;
+}
+.list{
+	width:100%;
+	border-bottom:15rpx solid  #f1f1f1;
+	background: #fff;
+}
+

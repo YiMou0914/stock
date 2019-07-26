@@ -1,0 +1,106 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTitleText": "登录"
+			}
+        }
+        ,{
+            "path" : "pages/register/register",
+            "style" : {
+				"navigationBarTitleText": "注册"
+			}
+        }
+        ,{
+            "path" : "pages/forget-pwd/forget-pwd",
+            "style" : {
+				"navigationBarTitleText": "找回密码"
+			}
+        },
+				{
+			"path": "pages/hall/hall",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+				{
+			"path": "pages/find/find",
+			"style": {
+				"navigationBarTitleText": "查找"
+			}
+		},
+				{
+			"path": "pages/stockDetail/StockDetail",
+			"style": {
+				"navigationBarTitleText": "股票详情"
+			}
+		}
+        ,{
+            "path" : "pages/divination/Divination",
+            "style" : {
+							"navigationBarTitleText": "行情预测"
+						}
+        }
+        ,{
+            "path" : "pages/guaRule/GuaRule",
+            "style" : {
+							"navigationBarTitleText": "卦象解析"
+						}
+        }
+        ,{
+            "path" : "pages/optional/optional",
+            "style" : {
+							"navigationBarTitleText": "自选卦象"
+						}
+        }
+        ,{
+            "path" : "pages/MyCenterPanel/MyCenterPanel",
+            "style" : {
+							"navigationBarTitleText": "个人中心"
+						}
+        }
+        ,{
+            "path" : "pages/forecastRecord/forecastRecord",
+            "style" : {"navigationBarTitleText": "预测记录"}
+        }
+        ,{
+            "path" : "pages/birthdayInfo/birthdayInfo",
+            "style" : {
+							"navigationBarTitleText": "生辰八字"
+						}
+        }
+    ],
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#08B6F2",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "login-template"
+	},
+	"tabBar" : {
+	    "color" : "#C0C4CC",
+	    "selectedColor" : "#fa436a",
+	    "borderStyle" : "black",
+	    "backgroundColor" : "#ffffff",
+	    "list" : [
+	        {
+	            "pagePath" : "pages/hall/hall",
+	            "iconPath" : "static/tab-home.png",
+	            "selectedIconPath" : "static/tab-home-current.png",
+	            "text" : "首页"
+	        },
+			{
+			    "pagePath" : "pages/find/find",
+			    "iconPath" : "static/tab-home.png",
+			    "selectedIconPath" : "static/tab-home-current.png",
+			    "text" : "查询"
+			},
+			 {
+			    "pagePath" : "pages/MyCenterPanel/MyCenterPanel",
+			    "iconPath" : "static/tab-home.png",
+			    "selectedIconPath" : "static/tab-home-current.png",
+			    "text" : "个人中心"
+			}
+	    ]
+	}
+}

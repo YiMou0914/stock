@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"list-content{ background: #fff; }\n.",[1],"list{ width:100%; border-bottom:",[0,15]," solid  #f1f1f1; background: #fff; }\n",],undefined,{path:"./pages/forecastRecord/forecastRecord.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/forecastRecord/forecastRecord.wxml') } }));

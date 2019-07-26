@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"divina { margin-left: ",[0,20],"; margin-top: ",[0,30],"; width: ",[0,280],"; }\n.",[1],"gua_number { margin-top: ",[0,20],"; font-size: ",[0,35],"; width: ",[0,120],"; color: #FF3333; }\n",],undefined,{path:"./pages/optional/optional.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/optional/optional.wxml') } }));

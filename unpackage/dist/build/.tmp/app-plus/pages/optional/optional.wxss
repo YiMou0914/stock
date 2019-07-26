@@ -1,0 +1,13 @@
+
+.divina {
+		margin-left: 20rpx;
+		margin-top: 30rpx;
+		width: 280rpx;
+}
+.gua_number {
+		margin-top: 20rpx;
+		font-size: 35rpx;
+		width: 120rpx;
+		color: #FF3333;
+}
+

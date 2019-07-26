@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget-pwd/forget-pwd",
+    "pages/hall/hall",
+    "pages/find/find",
+    "pages/stockDetail/StockDetail",
+    "pages/divination/Divination",
+    "pages/guaRule/GuaRule",
+    "pages/optional/optional",
+    "pages/MyCenterPanel/MyCenterPanel",
+    "pages/forecastRecord/forecastRecord",
+    "pages/birthdayInfo/birthdayInfo"
+  ],
+  "subPackages": [],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#08B6F2",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "login-template"
+  },
+  "tabBar": {
+    "color": "#C0C4CC",
+    "selectedColor": "#fa436a",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/hall/hall",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/tab-home-current.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/tab-home-current.png",
+        "text": "查询"
+      },
+      {
+        "pagePath": "pages/MyCenterPanel/MyCenterPanel",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/tab-home-current.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 2500
+  },
+  "nvueCompiler": "weex",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "Stock",
+  "compilerVersion": "2.0.1",
+  "usingComponents": {
+    "cu-custom": "/common/cu-custom"
+  }
+}

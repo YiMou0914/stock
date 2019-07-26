@@ -1,0 +1,102 @@
+
+.paddingItem {
+	font-size: 35rpx;
+	margin-left: 50rpx;
+	margin-top: 25rpx;
+	color: red;
+}
+.list {
+	border-bottom: 6rpx solid #f1f1f1;
+}
+.cu-list + .cu-list {
+	margin-top: 30rpx;
+}
+.cu-list > .cu-item {
+	-webkit-transition: all 0.6s ease-in-out 0s;
+	-o-transition: all 0.6s ease-in-out 0s;
+	transition: all 0.6s ease-in-out 0s;
+	-webkit-transform: translateX(0rpx);
+	    -ms-transform: translateX(0rpx);
+	        transform: translateX(0rpx);
+}
+.cu-list > .cu-item .move {
+	position: absolute;
+	right: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 260rpx;
+	height: 100%;
+	-webkit-transform: translateX(100%);
+	    -ms-transform: translateX(100%);
+	        transform: translateX(100%);
+}
+.cu-list > .cu-item .move view {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: left;
+	-webkit-align-items: left;
+	    -ms-flex-align: left;
+	        align-items: left;
+}
+.textInfo1 {
+	margin-right: 90rpx;
+	font-size: 35rpx;
+}
+.textInfo2 {
+	margin-right: 80rpx;
+	font-size: 35rpx;
+}
+.textInfo3 {
+	margin-right: 1rpx;
+	font-size: 35rpx;
+}
+.cu-list.menu-avatar > .cu-item {
+	position: relative;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	padding-right: 50rpx;
+	height: 120rpx;
+	background-color: #cce6ff;
+	border-bottom: 10rpx solid #e7ebed;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.cu-list.menu-avatar > .cu-item .content {
+	position: absolute;
+	left: 40rpx;
+	width: 180rpx;
+	line-height: 1.6em;
+}
+.cu-list.menu-avatar > .cu-item .action {
+	width: 100rpx;
+	text-align: left;
+}
+.cu-list.menu-avatar > .cu-item .action view + view {
+	margin-left: 10rpx;
+}
+.cu-list > .cu-item.move-cur {
+	-webkit-transform: translateX(-260rpx);
+	    -ms-transform: translateX(-260rpx);
+	        transform: translateX(-260rpx);
+}
+

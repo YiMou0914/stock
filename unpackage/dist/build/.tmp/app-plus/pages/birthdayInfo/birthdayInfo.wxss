@@ -1,0 +1,35 @@
+
+.nian {
+	background-color: #EEEEEE;
+	margin-top: 25px;
+	height: 500rpx;
+}
+.button {
+	background-color: #FFFFFF;
+	margin-top: -20rpx;
+	width: 520rpx;
+	height: 90rpx;
+}
+.name1{
+	margin-left: 130rpx;
+	font-size: 35rpx;
+	width: 380rpx;
+	font-size: 35rpx;
+	height: 45rpx;
+}
+.name2{
+	margin-left: 218rpx;
+	font-size: 35rpx;
+	width: 380rpx;
+	font-size: 30rpx;
+	height: 45rpx;
+}
+.time1{
+	margin-left: -100rpx; 
+	color: #000000;
+}
+.time2{
+	margin-left: -50rpx; 
+	color: #000000;
+}
+
